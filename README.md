@@ -7,13 +7,13 @@ Image is expecting several environments variables in order to work.
 
 List of mandatory variables is here:
 
- Var Name | Required | Description | Notes |
-| -------------------- | :------: | ---------- | ------------- |
-| IMAGE | **yes** | image name    | format: {project}/{repository}:{tag} |
-| LABEL | **yes** | list of labels (comma separated)   | example: label1,label2,label3 |
-| HARBOR_USERNAME | **yes** | Harbor login username | Needs RW rights to wanted project/repo |
-| HARBOR_PASSWORD | **yes** | Harbor login password| Needs RW rights to wanted project/repo |
-| REPOSITORY_DOMAIN | **yes** | domain name of Harbor | example: harbor.mycompany.net |
+Var Name | Required | Description | Notes 
+------------- | ------------- | ------------- |------------- 
+IMAGE | **yes** | image name | format: {project}/{repository}:{tag} 
+LABEL | **yes** | list of labels (comma separated) | example: label1,label2,label3 
+HARBOR_USERNAME | **yes** | Harbor login username | Needs RW rights to wanted project/repo 
+HARBOR_PASSWORD | **yes** | Harbor login password | Needs RW rights to wanted project/repo 
+REPOSITORY_DOMAIN | **yes** | domain name of Harbor | example: harbor.mycompany.net 
 
 ## example usage command
 ```
